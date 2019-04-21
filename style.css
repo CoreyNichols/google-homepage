@@ -8,12 +8,26 @@ a:hover {
 a:active {
 	text-decoration: underline;
 }
-.flex-container {
+.topnav {
 	display: flex;
 	}
+.botnav {
+	display: flex;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+}
 
 .flex-item {
 	margin: 5px
+}
+.flex-item1 {
+	background-color: blue;
+  	border: none;
+  	color: white;
+  	padding: 5px 10px;
+  	text-align: center;
+	border-radius: 2pt;
 }
 .container {
   	margin: 0;
