@@ -1,4 +1,20 @@
+a {color: black;}
+a:link {	
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+}
+.flex-container {
+	display: flex;
+	}
 
+.flex-item {
+	margin: 5px
+}
 .container {
   	margin: 0;
   	position: absolute;
@@ -15,7 +31,9 @@
 	transform: translate(-50%, -50%);
 	width: 600px;
 	height: 30px;
-	font-size: 16pt;
+	font-size: 12pt;
+	border-radius: 10px;
+	box-shadow:         3px 3px 5px 6px #ccc;
 }
     
 
